@@ -3,12 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     background-color: #12CB9E;
 }
+
 header{
     display: block;
 }
+
 .left{
     /* position: fixed; */
     top: 0;
@@ -21,6 +24,7 @@ header{
     padding: 15px;
     text-align: center;
 }
+
 .sag{
     display: flex;
     justify-content: center;
@@ -49,25 +53,30 @@ header{
 #heart [class^= fa]{
     margin-right: 8px;
 }
+
 #playlist [class^= fa]{
    margin-right: 5px;
 }
+
 .flex-icon{
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
 }
+
 .info-init{
     display: block;
     width: 100%;
     overflow: hidden;
     background: rgba(77, 77, 77, 0.212);
 }
+
 .info-init p{
     width: 150px;
     font-size: 16px;
     text-align: left;
 }
+
 #dice{
     font-size: 20px;
 }
@@ -76,7 +85,8 @@ header{
 /* Chris's Styles */
 main {
     display: flex;
-    width: 100vw;
+    position: fixed;
+    /* width: 100vw; */
 
 }
 
@@ -86,7 +96,8 @@ main {
     flex-direction: column;
 }
 .searchDiv{
-    height: 75px;
+    /* height: 55px; */
+    max-width: 90%;
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -96,12 +107,12 @@ main {
     margin-bottom: 15px;  
     border-radius: 50px;
     background-color: #151414;
-    width: 85px;
+    width: 87px;
     height: 40px;
     padding: 5px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between
 }
 
 .toggle-button {
@@ -152,7 +163,7 @@ main {
     width: 40px;
     height: 40px;
     background-color: #12CB9E;
-    border: px solid #12CB9E;
+    border: px solid #12CB9E; 
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -160,7 +171,11 @@ main {
 }
 
 #user {
-    color: white;
+    color: #151414;
+}
+/* recommended part */
+.recommended {
+    
 }
 
 /** bottom div **/
@@ -173,7 +188,7 @@ footer{
     display: flex;
     justify-content:space-between;
     align-items: center;
-    padding: 20px 0;
+    padding: 0;
     
 }
 
@@ -203,7 +218,7 @@ footer{
 }
 
 .controls {
-    width: 200px;
+    width: 300px;
     height: 50px;
     /* background-color: #151414; */
     border-radius: 50px;
@@ -211,4 +226,8 @@ footer{
     display: flex;
     justify-content: space-evenly;;
     align-items: center;
+}
+
+.volume {
+    background-color: green;
 }
